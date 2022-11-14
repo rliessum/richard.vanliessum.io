@@ -1,10 +1,10 @@
-Title: Hello! 
+Title: Hello!
 Date: 2022-11-14 20:12
-Modified: 2010-11-14 20:12
+Modified: 2022-11-14 20:12
 Category: Python
 Tags: pelican, publishing
-Slug: my-first-post
+Slug: hello-world
 Authors: Richard van Liessum
-Summary: Short version for index and feeds
+Summary: Hello to the world!
 
-This is the content of my super blog post.
+For now a big fat placeholder.
