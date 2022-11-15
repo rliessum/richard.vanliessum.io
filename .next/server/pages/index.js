@@ -102,7 +102,7 @@ var getAllArticles = __webpack_require__(3622);
 
 async function generateRssFeed() {
     let articles = await (0,getAllArticles/* getAllArticles */.z)();
-    let siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    let siteUrl = "https://richard.vanliessum.io/";
     let author = {
         name: "Spencer Sharp",
         email: "spencer@planetaria.tech"

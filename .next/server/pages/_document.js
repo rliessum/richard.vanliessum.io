@@ -66,12 +66,12 @@ function Document() {
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "alternate",
                         type: "application/rss+xml",
-                        href: `${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.xml`
+                        href: `${"https://richard.vanliessum.io/"}/rss/feed.xml`
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                         rel: "alternate",
                         type: "application/feed+json",
-                        href: `${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`
+                        href: `${"https://richard.vanliessum.io/"}/rss/feed.json`
                     })
                 ]
             }),
