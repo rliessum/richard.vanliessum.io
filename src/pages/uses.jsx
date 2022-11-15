@@ -62,10 +62,6 @@ export default function Uses() {
               special powers. I really like feeling like a wizard with special
               powers.
             </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
-            </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="Sublime Text 4">
