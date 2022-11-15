@@ -17,7 +17,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
+import logoEnergis from '@/images/logos/energis.jpeg'
 import logoIng from '@/images/logos/ing.jpeg'
 import logoCgi from '@/images/logos/cgi.jpeg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -139,9 +139,9 @@ function Resume() {
   let resume = [
     {
       company: 'ING',
-      title: 'Chapter Lead',
+      title: 'Chapter Lead Network',
       logo: logoIng,
-      start: '2009',
+      start: '2008',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
@@ -151,15 +151,15 @@ function Resume() {
       company: 'Logica',
       title: 'Consultant',
       logo: logoCgi,
-      start: '2009',
+      start: '2008',
       end: '2002',
     },
     {
       company: 'Energis',
       title: 'Network Engineer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      logo: logoEnergis,
+      start: '1999',
+      end: '2002',
     },
   ]
 
