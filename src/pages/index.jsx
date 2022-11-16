@@ -11,6 +11,7 @@ import {
   InstagramIcon,
   GitHubIcon,
   LinkedInIcon,
+  StravaIcon
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -279,6 +280,12 @@ export default function Home({ articles }) {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+
+            <SocialLink
+              href="https://www.strava.com/athletes/7203804" 
+              aria-label="Follow on Strava"
+              icon={StravaIcon}
+              />
           </div>
         </div>
       </Container>

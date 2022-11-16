@@ -338,7 +338,8 @@ eval("module.exports = __webpack_require__(/*! ./dist/client/link */ \"./node_mo
 
 var map = {
 	"./": [
-		"./src/pages/articles/index.jsx"
+		"./src/pages/articles/index.jsx",
+		"src_pages_articles_index_jsx"
 	],
 	"./crafting-a-design-system-for-a-multiplanetary-future/index.mdx": [
 		"./src/pages/articles/crafting-a-design-system-for-a-multiplanetary-future/index.mdx",
@@ -349,10 +350,12 @@ var map = {
 		"src_pages_articles_crafting-a-design-system-for-a-multiplanetary-future_planetaria-design-sys-09b991"
 	],
 	"./index": [
-		"./src/pages/articles/index.jsx"
+		"./src/pages/articles/index.jsx",
+		"src_pages_articles_index_jsx"
 	],
 	"./index.jsx": [
-		"./src/pages/articles/index.jsx"
+		"./src/pages/articles/index.jsx",
+		"src_pages_articles_index_jsx"
 	],
 	"./introducing-animaginary.mdx": [
 		"./src/pages/articles/introducing-animaginary.mdx",
@@ -369,7 +372,7 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(() => {
+	return __webpack_require__.e(ids[1]).then(() => {
 		return __webpack_require__(id);
 	});
 }
