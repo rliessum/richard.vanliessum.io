@@ -9,7 +9,7 @@ const projects = [
   {
     name: 'Network Tools',
     description:
-      'Tools to automate your network.',
+      'Tools to automate your network deployment.',
     link: { href: '#', label: 'github.com' },
     logo: logoHal,
   },

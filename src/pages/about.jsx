@@ -66,8 +66,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                This is my personal site and blog. I write about things that interest me.
-                I'm interested in topics like engineering, programming, design, leadership, home automation, sports and more.
+                This is my personal site and blog. This is my personal site and blog. I write about things that are of interest to me.
+                I'm interested in topics like engineering, programming, design, leadership, home automation, sports and more. 
               </p>
             </div>
           </div>
@@ -79,11 +79,11 @@ export default function About() {
               <SocialLink href="https://github.com/rliessum" icon={GitHubIcon} className="mt-4">
                 Follow on GitHub
               </SocialLink>
-              <SocialLink href="https://www.strava.com/athletes/7203804" icon={StravaIcon} className="mt-4">
-                Follow on Strava
-              </SocialLink>
               <SocialLink href="https://www.linkedin.com/in/richardvanliessum/" icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
+              </SocialLink>
+              <SocialLink href="https://www.strava.com/athletes/7203804" icon={StravaIcon} className="mt-4">
+                Follow on Strava
               </SocialLink>
               <SocialLink
                 href="mailto:contact@vanliessum.io"
