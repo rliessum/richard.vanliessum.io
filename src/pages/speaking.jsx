@@ -37,7 +37,7 @@ export default function Speaking() {
       </Head>
       <SimpleLayout
         title="I’ve spoken at a couple of events."
-        intro="One of my favorite ways to share my ideas is live on stage, where there’s so much more communication bandwidth than there is in writing"
+        intro="I like to share my knowledge and lessons learned is live on stage, where there’s so much more communication bandwidth than there is in writing."
       >
         <div className="space-y-20">
           <SpeakingSection title="Conferences">
@@ -45,6 +45,13 @@ export default function Speaking() {
               href="#"
               title="Lessons learned from developing network automation tools"
               description="I’ll be talking about the lessons I learned while developing network automation tools, and how I applied them to my current role."
+              event="Internal company conference"
+              cta="Watch the recording"
+            />
+            <Appearance
+              href="#"
+              title="How to create Twelve-Factor Apps to make your life easier"
+              description="I’ll be talking about the approach and lessons from developing a tool that consolidate data from several sources, and process and present them using modern software development practises."
               event="Internal company conference"
               cta="Watch the recording"
             />

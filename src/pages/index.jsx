@@ -18,9 +18,9 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoEnergis from '@/images/logos/energis.jpeg'
 import logoIng from '@/images/logos/ing.jpeg'
 import logoCgi from '@/images/logos/cgi.jpeg'
+import logoEnergis from '@/images/logos/energis.jpeg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -254,7 +254,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Richard van Liessum - Lead and Infrastructure engineer.
+          Richard van Liessum - Lead & Infrastructure Engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Richard, a lead and infrastructure engineer based in Rotterdam.

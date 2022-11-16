@@ -66,7 +66,8 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-              This is my personal site and blog. I write about engineering, development and other things that interest me.
+                This is my personal site and blog. I write about things that interest me.
+                I'm interested in topics like engineering, programming, design, leadership, home automation, sports and more.
               </p>
             </div>
           </div>
