@@ -50,8 +50,9 @@ export default function Speaking() {
             />
             <Appearance
               href="#"
-              title="How to create Twelve-Factor Apps to make your life easier"
-              description="I’ll be talking about the approach and lessons from developing a tool that consolidate data from several sources, and process and present them using modern software development practises."
+              title="Binoculars for internet prefixes"
+              description="I’ll be talking about the approach and lessons from developing a tool that consolidate data on internet routes prefixes. 
+                           It's a show and tell on how to fetch and process and visualize data from multiple sources, using modern software development and deployment practises."
               event="Internal company conference"
               cta="Watch the recording"
             />

@@ -338,20 +338,17 @@ eval("module.exports = __webpack_require__(/*! ./dist/client/link */ \"./node_mo
 
 var map = {
 	"./": [
-		"./src/pages/articles/index.jsx",
-		"src_pages_articles_index_jsx"
+		"./src/pages/articles/index.jsx"
 	],
 	"./first-post.mdx": [
 		"./src/pages/articles/first-post.mdx",
 		"src_pages_articles_first-post_mdx"
 	],
 	"./index": [
-		"./src/pages/articles/index.jsx",
-		"src_pages_articles_index_jsx"
+		"./src/pages/articles/index.jsx"
 	],
 	"./index.jsx": [
-		"./src/pages/articles/index.jsx",
-		"src_pages_articles_index_jsx"
+		"./src/pages/articles/index.jsx"
 	]
 };
 function webpackAsyncContext(req) {
@@ -364,7 +361,7 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(() => {
+	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(() => {
 		return __webpack_require__(id);
 	});
 }
