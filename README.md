@@ -1,4 +1,6 @@
-# Spotlight
+# Personal Site & Blog - richard.van.liessum.io
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/789405b0-b6bc-4974-b6d0-92cd88f4cd09/deploy-status)](https://app.netlify.com/sites/rliessum/deploys)
 
 Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
