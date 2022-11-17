@@ -4,7 +4,6 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import network from '@/images/logos/network.svg'
-import sync from '@/images/logos/sync.svg'
 import notionLogo from '@/images/logos/notion.svg'
 
 const projects = [
