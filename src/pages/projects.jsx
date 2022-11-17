@@ -3,15 +3,24 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoHal from '@/images/logos/hal.jpeg'
+import network from '@/images/logos/network.svg'
+import sync from '@/images/logos/sync.svg'
+import notionLogo from '@/images/logos/notion.svg'
 
 const projects = [
   {
-    name: 'Network Tools',
+    name: 'Network Automation Tools',
     description:
-      'Tools to automate your network deployment.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHal,
+      'Collection of tools to automate network management tasks.',
+    link: { href: 'https://github.com/rliessum/', label: 'automation' },
+    logo: network,
+  },
+  {
+    name: 'Sync to Notion',
+    description:
+      'Sync metrics I care to Notion pages trough their API.',
+    link: { href: 'https://github.com/rliessum/sync-to-notion', label: 'notion' },
+    logo: notionLogo,
   },
 ]
 
