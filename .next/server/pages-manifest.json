@@ -2,5 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/articles/first-post": "pages/articles/first-post.js"
+  "/about": "pages/about.html",
+  "/articles/first-post": "pages/articles/first-post.html",
+  "/speaking": "pages/speaking.html",
+  "/thank-you": "pages/thank-you.html",
+  "/uses": "pages/uses.html",
+  "/projects": "pages/projects.html",
+  "/articles": "pages/articles.js",
+  "/": "pages/index.js",
+  "/404": "pages/404.html"
 }

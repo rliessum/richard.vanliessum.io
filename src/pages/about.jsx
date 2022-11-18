@@ -6,7 +6,6 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import {
   TwitterIcon,
-  InstagramIcon,
   StravaIcon,
   GitHubIcon,
   LinkedInIcon,
