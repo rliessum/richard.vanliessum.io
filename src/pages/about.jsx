@@ -62,12 +62,14 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Richard van Liessum. I live in Rotterdam, where I work on stuff.
+              I’m Richard van Liessum. I live in Rotterdam, where I work on things that give me energy.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                This is my personal site and blog. This is my personal site and blog. I write about things that are of interest to me.
-                I'm interested in topics like engineering, programming, design, leadership, home automation, sports and more. 
+              I have 20 years of experience in IT, with a focus on infrastructure. I develop and build infrastructure automation applications and lead talented engineers.
+              </p>
+              <p>
+              This is my personal site and blog. I write about topics that are of interest to me like engineering, programming, design, leadership, home automation, sports and more. 
               </p>
             </div>
           </div>

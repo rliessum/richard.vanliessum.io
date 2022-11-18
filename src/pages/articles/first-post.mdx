@@ -10,6 +10,15 @@ export const meta = {
 
 export default (props) => <ArticleLayout meta={meta} {...props} />
 
-This is my personal site and blog. I write about things that are of interest to me.
-I'm interested in topics like engineering, programming, design, leadership, home automation, sports and more. 
-Furthermore, I'm excited to share what I learn regularly.
+This is my personal site and blog. I have plenty of interests. And this site gives me an outlet to experiment and share my findings on a specific `{topic}`, that might be of use to somebody else.
+My topics list is not complete by any means, so updates are to be expected.
+
+```python
+topics = ["engineering", "programming", "design", "leadership", "sports"]
+
+def topic(topics: list) -> str:
+    random_topic = random.choice(topics)
+    return random_topic
+
+topic = topic(topics)
+```
