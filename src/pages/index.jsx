@@ -14,8 +14,8 @@ import {
   StravaIcon
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
+import image2 from '@/images/photos/image-3.jpg'
+import image3 from '@/images/photos/image-12.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import logoIng from '@/images/logos/ing.jpeg'
@@ -149,11 +149,11 @@ function Resume() {
       },
     },
     {
-      company: 'Logica',
+      company: 'CGI',
       title: 'Consultant',
       logo: logoCgi,
-      start: '2008',
-      end: '2002',
+      start: '2002',
+      end: '2008',
     },
     {
       company: 'Energis',
