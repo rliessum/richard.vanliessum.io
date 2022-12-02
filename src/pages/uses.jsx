@@ -65,8 +65,8 @@ export default function Uses() {
             <Tool title="Visual Studio Code">
               I love to work with Visual Studio Code. It's a very versatile developing environment.
             </Tool>
-            <Tool title="iTerm2">
-              At this point it's just a habit. I've been using it for so long.
+            <Tool title="Warp">
+              Warp is a great tool for working with multiple SSH sessions and has features who are trully modern. It's a great alternative to iTerm2.
             </Tool>
             <Tool title="Tower">
               Sometimes you just want to branch out from the command line and solve your git problems in a GUI.
