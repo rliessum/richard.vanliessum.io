@@ -1,10 +1,14 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
+  "/articles/first-post": "pages/articles/first-post.html",
+  "/_error": "pages/_error.js",
+  "/projects": "pages/projects.html",
+  "/speaking": "pages/speaking.html",
+  "/uses": "pages/uses.html",
+  "/thank-you": "pages/thank-you.html",
+  "/about": "pages/about.html",
   "/_document": "pages/_document.js",
-  "/uses": "pages/uses.js",
-  "/speaking": "pages/speaking.js",
-  "/projects": "pages/projects.js",
-  "/about": "pages/about.js",
-  "/articles": "pages/articles.js"
+  "/articles": "pages/articles.js",
+  "/": "pages/index.js",
+  "/404": "pages/404.html"
 }

@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { useRouter } from 'next/router'
-
+import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { formatDate } from '@/lib/formatDate'
 import { Prose } from '@/components/Prose'
@@ -17,18 +16,20 @@ function ArrowLeftIcon(props) {
     </svg>
   )
 }
-
 export function ArticleLayout({
   children,
   meta,
   isRssFeed = false,
   previousPathname,
 }) {
-  let router = useRouter()
 
+  // Check if it's an RSS feed
   if (isRssFeed) {
     return children
   }
+
+  // Use router only on the client-side
+  const router = typeof window !== 'undefined' ? useRouter() : undefined;
 
   return (
     <>
@@ -66,7 +67,7 @@ export function ArticleLayout({
             </article>
           </div>
         </div>
-      </Container>
+        </Container>
     </>
   )
 }
